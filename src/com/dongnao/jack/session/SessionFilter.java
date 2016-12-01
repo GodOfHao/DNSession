@@ -23,6 +23,11 @@ public class SessionFilter implements Filter {
     public void doFilter(ServletRequest paramServletRequest,
             ServletResponse paramServletResponse, FilterChain paramFilterChain)
             throws IOException, ServletException {
+    	
+    	
+    	System.out.println("1");
+    	System.out.println("2");
+    	System.out.println("3");
         
         paramFilterChain.doFilter(new JackServletRequest(
                 (HttpServletRequest)paramServletRequest,
