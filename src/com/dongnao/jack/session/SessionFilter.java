@@ -32,6 +32,11 @@ public class SessionFilter implements Filter {
         System.out.println("我是base工程");
         System.out.println("我是base工程");
         
+        
+        System.out.println("我是fork工程");
+        System.out.println("我是fork工程");
+        System.out.println("我是fork工程");
+        
         paramFilterChain.doFilter(new JackServletRequest(
                 (HttpServletRequest)paramServletRequest,
                 (HttpServletResponse)paramServletResponse),
